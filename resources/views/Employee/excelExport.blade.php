@@ -318,6 +318,9 @@
             <td>{{$PLTotal}}</td>
             <td>{{$PHTotal}}</td>
             <td>{{$TotalTotal}}</td>
+            <?php
+                dd($loopValue);
+            ?>
 
             @if($loopValue >= 1)
             <td>{{$toal1}}</td>
